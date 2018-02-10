@@ -76,6 +76,6 @@ def tweetRandomSentence(sentences):
         except twitter.error.TwitterError as err:
             print("Twitter is unhappy with us! {0}".format(err))
     else:
-        print("--------\nCan't tweet that.")
+        print("--------\nNot tweeting that.")
 
 tweetRandomSentence(makeShortSentenceFromCorpus(5000))

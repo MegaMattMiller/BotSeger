@@ -3,6 +3,8 @@ config.txt
 accounts.txt
 *.jpg
 
+.vscode/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
